@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="1" stop-color="#11172e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="c1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1e3a8a"/><stop offset="1" stop-color="#4ade80"/></linearGradient>
+    <linearGradient id="c2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f766e"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+    <linearGradient id="c3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3730a3"/><stop offset="1" stop-color="#a78bfa"/></linearGradient>
+    <linearGradient id="c4" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9d174d"/><stop offset="1" stop-color="#fb7185"/></linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" fill="url(#bg)"/>
+
+  <!-- nav bar -->
+  <rect x="0" y="0" width="1200" height="58" fill="#0b1020" opacity="0.9"/>
+  <circle cx="40" cy="29" r="9" fill="url(#accent)"/>
+  <text x="58" y="35" fill="#e6e9f5" font-size="18" font-weight="800">WebVitals Lab</text>
+  <text x="900" y="35" fill="#9aa3c0" font-size="15">Home</text>
+  <text x="970" y="35" fill="#9aa3c0" font-size="15">Products</text>
+  <text x="1075" y="35" fill="#e6e9f5" font-size="15">Cart (2)</text>
+  <line x1="0" y1="58" x2="1200" y2="58" stroke="#222a44" stroke-width="1"/>
+
+  <!-- hero -->
+  <text x="60" y="150" fill="#7dd3fc" font-size="15" font-weight="600" letter-spacing="1">PERFORMANCE &amp; ACCESSIBILITY, DEMONSTRATED</text>
+  <text x="58" y="208" fill="#e6e9f5" font-size="46" font-weight="800">A storefront engineered for</text>
+  <text x="58" y="262" fill="url(#accent)" font-size="46" font-weight="800">Core Web Vitals.</text>
+  <text x="60" y="305" fill="#aab2cf" font-size="17">Route-level code-splitting · responsive lazy images · font-display swap ·</text>
+  <text x="60" y="330" fill="#aab2cf" font-size="17">intent prefetch · PWA service worker · a live on-page Web Vitals HUD.</text>
+
+  <rect x="60" y="360" width="190" height="46" rx="10" fill="url(#accent)"/>
+  <text x="155" y="389" fill="#0b1020" font-size="16" font-weight="700" text-anchor="middle">Shop the catalog</text>
+  <rect x="266" y="360" width="140" height="46" rx="10" fill="none" stroke="#3a4470" stroke-width="1.5"/>
+  <text x="336" y="389" fill="#cdd3ea" font-size="16" text-anchor="middle">View source</text>
+
+  <!-- product cards -->
+  <g>
+    <rect x="700" y="92" width="220" height="250" rx="14" fill="#141a30" stroke="#222a44"/>
+    <rect x="716" y="108" width="188" height="141" rx="8" fill="url(#c1)"/>
+    <text x="724" y="280" fill="#e6e9f5" font-size="15" font-weight="700">Aero Runner Sneaker</text>
+    <text x="724" y="304" fill="#8a93b4" font-size="12">Featherweight daily trainer</text>
+    <text x="724" y="328" fill="#7dd3fc" font-size="15" font-weight="700">$129.00</text>
+
+    <rect x="940" y="92" width="220" height="250" rx="14" fill="#141a30" stroke="#222a44"/>
+    <rect x="956" y="108" width="188" height="141" rx="8" fill="url(#c2)"/>
+    <text x="964" y="280" fill="#e6e9f5" font-size="15" font-weight="700">Nimbus Shell Jacket</text>
+    <text x="964" y="304" fill="#8a93b4" font-size="12">Packable 3-layer shell</text>
+    <text x="964" y="328" fill="#7dd3fc" font-size="15" font-weight="700">$189.00</text>
+
+    <rect x="700" y="360" width="220" height="250" rx="14" fill="#141a30" stroke="#222a44"/>
+    <rect x="716" y="376" width="188" height="141" rx="8" fill="url(#c3)"/>
+    <text x="724" y="548" fill="#e6e9f5" font-size="15" font-weight="700">Orbit 22L Backpack</text>
+    <text x="724" y="572" fill="#8a93b4" font-size="12">Clamshell carry-on</text>
+    <text x="724" y="596" fill="#7dd3fc" font-size="15" font-weight="700">$99.00</text>
+
+    <rect x="940" y="360" width="220" height="250" rx="14" fill="#141a30" stroke="#222a44"/>
+    <rect x="956" y="376" width="188" height="141" rx="8" fill="url(#c4)"/>
+    <text x="964" y="548" fill="#e6e9f5" font-size="15" font-weight="700">Pulse ANC Earbuds</text>
+    <text x="964" y="572" fill="#8a93b4" font-size="12">Adaptive noise cancelling</text>
+    <text x="964" y="596" fill="#7dd3fc" font-size="15" font-weight="700">$149.00</text>
+  </g>
+
+  <!-- Live Web Vitals HUD -->
+  <g>
+    <rect x="60" y="452" width="270" height="178" rx="14" fill="#0e1428" stroke="#2b3358" stroke-width="1.5"/>
+    <circle cx="84" cy="480" r="6" fill="#34d399"/>
+    <text x="100" y="485" fill="#e6e9f5" font-size="15" font-weight="700">Web Vitals ▾</text>
+
+    <text x="80" y="520" fill="#9aa3c0" font-size="14" font-weight="600">LCP</text>
+    <text x="310" y="520" fill="#34d399" font-size="14" font-weight="700" text-anchor="end">1124 ms</text>
+
+    <text x="80" y="546" fill="#9aa3c0" font-size="14" font-weight="600">INP</text>
+    <text x="310" y="546" fill="#34d399" font-size="14" font-weight="700" text-anchor="end">32 ms</text>
+
+    <text x="80" y="572" fill="#9aa3c0" font-size="14" font-weight="600">CLS</text>
+    <text x="310" y="572" fill="#34d399" font-size="14" font-weight="700" text-anchor="end">0.001</text>
+
+    <text x="80" y="598" fill="#9aa3c0" font-size="14" font-weight="600">FCP</text>
+    <text x="310" y="598" fill="#34d399" font-size="14" font-weight="700" text-anchor="end">684 ms</text>
+
+    <text x="80" y="624" fill="#9aa3c0" font-size="14" font-weight="600">TTFB</text>
+    <text x="310" y="624" fill="#fbbf24" font-size="14" font-weight="700" text-anchor="end">210 ms</text>
+  </g>
+</svg>
